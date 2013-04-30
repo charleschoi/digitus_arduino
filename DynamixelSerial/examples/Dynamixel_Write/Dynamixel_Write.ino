@@ -7,9 +7,9 @@ delay(1000);
 
 void loop(){
 
-  Dynamixel.move(1,random(200,800));  // Move the Servo radomly from 200 to 800
+  Dynamixel.move(1,random(277,699));  // Move the Servo radomly from 200 to 800
   delay(1000);
-  Dynamixel.moveSpeed(1,random(200,800),random(200,800));
+  Dynamixel.moveSpeed(1,random(277,699),random(277,699));
   delay(2000);
   Dynamixel.setEndless(1,ON);
   Dynamixel.turn(1,RIGTH,1000);
